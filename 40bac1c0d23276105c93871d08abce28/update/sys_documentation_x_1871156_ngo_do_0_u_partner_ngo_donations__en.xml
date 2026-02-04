@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="partner ngo donations" language="en" table="x_1871156_ngo_do_0_u_partner_ngo_donations">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>partner ngo donations</label>
+            <language>en</language>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <plural>partner ngo donations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 15:34:29</sys_created_on>
+            <sys_id>a6fd018c5332761066567ab0a0490eaa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>partner ngo donations</sys_name>
+            <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+            <sys_update_name>sys_documentation_x_1871156_ngo_do_0_u_partner_ngo_donations__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:15:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_genius_result_configuration_m2m">
+    <ais_search_profile_ais_genius_result_configuration_m2m action="INSERT_OR_UPDATE">
+        <genius_result_configuration display_value="Document Approval Genius Result">dcba05c07532761030b901075a3c2885</genius_result_configuration>
+        <order>100</order>
+        <profile display_value="Document Approval Search Profile">94ba05c03b327610c2a1bf1bfa210486</profile>
+        <sys_class_name>ais_search_profile_ais_genius_result_configuration_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 15:20:26</sys_created_on>
+        <sys_id>1cba05c017327610c26d678ea1716484</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Approval Genius Result.Document Approval Search Profile</sys_name>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name>ais_search_profile_ais_genius_result_configuration_m2m_1cba05c017327610c26d678ea1716484</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 15:20:26</sys_updated_on>
+    </ais_search_profile_ais_genius_result_configuration_m2m>
+</record_update>

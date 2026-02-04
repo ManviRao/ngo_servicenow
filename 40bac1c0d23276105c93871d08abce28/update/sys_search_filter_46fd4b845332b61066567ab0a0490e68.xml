@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="partner ngo donations">0afd4b845332b61066567ab0a0490e5a</ais_search_source>
+        <label>partner ngo donations</label>
+        <name>partner ngo donations</name>
+        <order>400</order>
+        <search_context_config display_value="NGO Donation &amp; Distribution Management AI Search Configuration">c8fd07847232b610bd721fb4f35cfe0f</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 00:53:42</sys_created_on>
+        <sys_id>46fd4b845332b61066567ab0a0490e68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>partner ngo donations</sys_name>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name>sys_search_filter_46fd4b845332b61066567ab0a0490e68</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 00:53:42</sys_updated_on>
+    </sys_search_filter>
+</record_update>

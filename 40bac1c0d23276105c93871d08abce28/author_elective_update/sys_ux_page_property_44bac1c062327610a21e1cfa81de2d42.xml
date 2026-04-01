@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="">14ba05c047327610361a83f21b30ca88</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 15:20:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>44bac1c062327610a21e1cfa81de2d42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name>sys_ux_page_property_44bac1c062327610a21e1cfa81de2d42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 15:20:23</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1871156_ngo_do_0.14ba05c047327610361a83f21b30ca88.root.ribbonConfigId</unique_name>
+        <value>48bac1c099327610b1c9732700f4b642</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</application>
+        <file_path/>
+        <instance_id>832b681cebf86214cbdefceacad0cd64</instance_id>
+        <instance_name>dev316896</instance_name>
+        <name>sys_ux_page_property_44bac1c062327610a21e1cfa81de2d42</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Ribbon Config ID</description><name>ribbonConfigId</name><page display_value="">14ba05c047327610361a83f21b30ca88</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-27 15:20:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>44bac1c062327610a21e1cfa81de2d42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ribbonConfigId</sys_name><sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package><sys_policy/><sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope><sys_update_name>sys_ux_page_property_44bac1c062327610a21e1cfa81de2d42</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-27 15:20:23</sys_updated_on><type>string</type><unique_name>x_1871156_ngo_do_0.14ba05c047327610361a83f21b30ca88.root.ribbonConfigId</unique_name><value>48bac1c099327610b1c9732700f4b642</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>252723502</payload_hash>
+        <record_name>ribbonConfigId</record_name>
+        <reverted_from/>
+        <source>53a85b015312321066567ab0a0490e3d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-06 07:43:00</sys_created_on>
+        <sys_id>468e0b085332b61066567ab0a0490e5e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19b924257a00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>068e0b08c232b6105cae28cef912c55e</update_guid>
+        <update_guid_history>068e0b08c232b6105cae28cef912c55e:252723502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 00:56:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>439e4bd24bc54843895c095f66a89239</sys_id>
+        <sys_metadata>44bac1c062327610a21e1cfa81de2d42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_scope_delete display_value="">2f4f21d40ec3470db54a73af4d29ff81</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_44bac1c062327610a21e1cfa81de2d42</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_44bac1c062327610a21e1cfa81de2d42">468e0b085332b61066567ab0a0490e5e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 00:56:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

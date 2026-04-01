@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="size" table="x_1871156_ngo_do_0_u_partner_ngo_donations" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>size</element>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-05 07:38:55</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>size</sys_name>
+            <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+            <sys_update_name>sys_choice_x_1871156_ngo_do_0_u_partner_ngo_donations_size</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-05 07:38:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>XXS</label>
+            <language>en</language>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-05 07:39:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-05 10:21:32</sys_updated_on>
+            <value>xxs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>XS</label>
+            <language>en</language>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-05 07:38:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-05 10:21:50</sys_updated_on>
+            <value>xs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>S</label>
+            <language>en</language>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-05 07:39:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-05 10:21:43</sys_updated_on>
+            <value>s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>L</label>
+            <language>en</language>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-05 07:39:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-05 10:21:53</sys_updated_on>
+            <value>l</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>XL</label>
+            <language>en</language>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-05 07:39:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-05 10:21:45</sys_updated_on>
+            <value>xl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>XXL</label>
+            <language>en</language>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-05 07:39:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-05 10:21:36</sys_updated_on>
+            <value>xxl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>XXXL</label>
+            <language>en</language>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-05 07:39:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-05 10:21:29</sys_updated_on>
+            <value>xxxl</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

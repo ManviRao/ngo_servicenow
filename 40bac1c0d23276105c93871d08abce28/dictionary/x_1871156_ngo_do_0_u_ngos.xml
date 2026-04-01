@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9c7c89885332761066567ab0a0490ec0" label="ngos" max_length="40" name="x_1871156_ngo_do_0_u_ngos" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="InActive" sequence="1" value="inactive"/>
+            </choice>
+        </element>
+        <element label="Contact Email" max_length="40" name="u_contact_email" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="NGO name" max_length="40" name="u_ngo_name" type="string"/>
+        <element label="location" max_length="40" name="u_location" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

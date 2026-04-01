@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="06e4e60f5332761066567ab0a0490e49" label="Beneficiary request" max_length="40" name="x_1871156_ngo_do_0_beneficiary_request" type="collection">
+        <element label="Item requested" max_length="32" name="item_requested" reference="x_1871156_ngo_do_0_inventory" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Beneficiay" max_length="32" name="beneficiay" reference="x_1871156_ngo_do_0_beneficiary" type="reference"/>
+        <element choice="3" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="new" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element label="quantity" max_length="40" name="quantity" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="beneficiay"/>
+        </index>
+        <index name="index2">
+            <element name="item_requested"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

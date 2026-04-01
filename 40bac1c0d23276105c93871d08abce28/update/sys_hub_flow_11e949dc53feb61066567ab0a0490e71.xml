@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=544000,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>notify_partner_ngo__donation_status_update</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛partner ngo donations Record","reference":"x_1871156_ngo_do_0_u_partner_ngo_donations","reference_display":"partner ngo donations","type":"reference","base_type":"reference","usedInstances":{"f3d202d5-f5b9-4647-8459-6a9caa3d17e2":["record"],"0a61f485-ab5e-4c27-801c-dd12a7e73260":["record"]},"attributes":{}},{"name":"Updated_1.current.u_status","label":"Trigger - Record Updated➛partner ngo donations Record➛status","reference":"","reference_display":"status","type":"choice","base_type":"choice","parent_table_name":"x_1871156_ngo_do_0_u_partner_ngo_donations","column_name":"u_status","choices":[{"used":false,"label":"Submitted","image":"","reference":false,"rawLabel":"Submitted","selected":false,"missing":false,"value":"submitted","parameters":{"name":"x_1871156_ngo_do_0_u_partner_ngo_donations","dependent_values":[""]}},{"used":false,"label":"Approved","image":"","reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"x_1871156_ngo_do_0_u_partner_ngo_donations","dependent_values":[""]}},{"used":false,"label":"Rejected","image":"","reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"x_1871156_ngo_do_0_u_partner_ngo_donations","dependent_values":[""]}}],"usedInstances":{"1ea1f31e-50e7-4ef0-92aa-0ed49afd16b1":["condition"]}}]</label_cache>
+        <master_snapshot>12fb09145332f61066567ab0a0490e34</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Notify Partner NGO – Donation Status Update</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>66fb09145332f61066567ab0a0490ed7</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:55:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11e949dc53feb61066567ab0a0490e71</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Notify Partner NGO – Donation Status Update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name>sys_hub_flow_11e949dc53feb61066567ab0a0490e71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:14</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2026-01-28 02:04:15">f6fb49145332f61066567ab0a0490e1b</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=11e949dc53feb61066567ab0a0490e71"/>
+    <sys_variable_value action="delete_multiple" query="document_key=11e949dc53feb61066567ab0a0490e71"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1871156_ngo_do_0_u_partner_ngo_donations">u_statusVALCHANGES<item display_value="-- None --" endquery="false" field="u_status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66fb09145332f61066567ab0a0490ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:14</sys_updated_on>
+        <table>x_1871156_ngo_do_0_u_partner_ngo_donations</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>11e949dc53feb61066567ab0a0490e71</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:14</sys_created_on>
+        <sys_id>62fb09145332f61066567ab0a0490ed8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:14</sys_updated_on>
+        <trigger display_value="">66fb09145332f61066567ab0a0490ed7</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=11e949dc53feb61066567ab0a0490e71^sys_idNOT IN62fb09145332f61066567ab0a0490ed8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=11e949dc53feb61066567ab0a0490e71"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=11e949dc53feb61066567ab0a0490e71^sys_idNOT IN55e949dc53feb61066567ab0a0490e72"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>11e949dc53feb61066567ab0a0490e71</id>
+        <name>Notify Partner NGO – Donation Status Update</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:55:09</sys_created_on>
+        <sys_id>55e949dc53feb61066567ab0a0490e72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:55:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=55e949dc53feb61066567ab0a0490e72"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=11e949dc53feb61066567ab0a0490e71^sys_idNOT IN230acddc53feb61066567ab0a0490ea6,2b0acddc53feb61066567ab0a0490e80,670acddc53feb61066567ab0a0490e9b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</model>
+        <model_id>11e949dc53feb61066567ab0a0490e71</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_11e949dc53feb61066567ab0a0490e71</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:55:51</sys_created_on>
+        <sys_id>230acddc53feb61066567ab0a0490ea6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:55:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=230acddc53feb61066567ab0a0490ea6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</model>
+        <model_id>11e949dc53feb61066567ab0a0490e71</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_11e949dc53feb61066567ab0a0490e71</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:55:50</sys_created_on>
+        <sys_id>2b0acddc53feb61066567ab0a0490e80</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2b0acddc53feb61066567ab0a0490e80"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</model>
+        <model_id>11e949dc53feb61066567ab0a0490e71</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_11e949dc53feb61066567ab0a0490e71</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:55:50</sys_created_on>
+        <sys_id>670acddc53feb61066567ab0a0490e9b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=670acddc53feb61066567ab0a0490e9b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=11e949dc53feb61066567ab0a0490e71"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=11e949dc53feb61066567ab0a0490e71"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=11e949dc53feb61066567ab0a0490e71^sys_idNOT IN130ac9dc53feb61066567ab0a0490eec"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:55:49</sys_created_on>
+        <sys_id>130ac9dc53feb61066567ab0a0490eec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=11e949dc53feb61066567ab0a0490e71^sys_idNOT IN31fa89d853beb61066567ab0a0490eda,788bc5d05332f61066567ab0a0490ed3"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>1ea1f31e-50e7-4ef0-92aa-0ed49afd16b1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:59:49</sys_created_on>
+        <sys_id>31fa89d853beb61066567ab0a0490eda</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_updated_by>ngo.admin</sys_updated_by>
+        <sys_updated_on>2026-01-30 05:08:20</sys_updated_on>
+        <ui_id>f3d202d5-f5b9-4647-8459-6a9caa3d17e2</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW227bOBCGX8XQtWWIknVw7ooGAQp0UyBJe1MUBEUOEwLUoRSVJmv43Xco0bYcO9mm2xTYO3M4JP/5OZ/or+tAieAsWIpCiJUkkSSERCRKSUwKKKDkeZZDXATzoGYVYKYB3hiB43umexdYrz+3glkQlCx4bwzUdrPBeaG6VrPHLz4NI/xOaYHzwdnXb/OgZQZ3tGCCs/WTqZ+VpFkJGlOvtpqearSPrRuLhvcV6qJqG/zoV577mdmHc5zBRU4OmQfwYKEWgDok0x3Mg4rVWGRjHncRA0x8qvU+cKdqOxZasYdO/Y0nJ7HLk4CVcW/Cbki9QWNYnjPLrq3pue3Nzq9GcehGTwRI1mv7fhobEz61VjX1uMSyUm9XN7qv6svRkWC3weQ++g5FQOsKdcrxcKxCXt81P662Ii9UPVjiS9QNZ3o3YtYaVfbWyVkHvbo55fYYPu03aBgSK9a2qr6lrWnu1XAeqq8WtxoHC6mbHyizU7f1gnFX6gJvgi0uMH4+hL8wo1zdf+E2uNid+blW33v44PpIkChPVhEP8zhNwmXEWVgWogxZGct0ucyKrCTBZh50j917zbpu7xheFf3eu4JH/7xTdDB7cJoODecWc6Na+w7l3cPOnzHovPENib9OJG42m7nHsCAv9XwS71t8cvwexQdKipyQNKP1bUNFQyPaU+TM1mB8qGbOwe6YT582w7TZNO110P5EAVtob4ZWPV2Q5/Yo9nG6dnY5Tnhq41dSO7b7CWiL6H8ErS/rv1N74PUhtAdu/xFmeVmWsoRVSErOw2UORVjELA8hjXgi4ySKcvkLzD5D6g6/5cvdO3kF68YqqfhAyQTATKDgdBWlSRLLjERZlmY5KyMWLVcRxPkxdlvUZugDOonCX/1O/rvoLXKXh6pP1+LZ2xNwiN7VJO7JS14mbwTtV55LvF64d7cHFVOajp30DI5PavvNaD6n5IBXJiVw90dIKtACW44Oa97k7ZXXwAy/u3AnuTsc4Txk++BikXA844jt6XW+Hdo3xz3VgaXeFuo2oLIxFXMdMVT49IuwXBHIk7gIV1mMXwRI0rAUSRISBA6AgYzFm7zim2//AEYTEMojCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=31fa89d853beb61066567ab0a0490eda"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:02:12</sys_created_on>
+        <sys_id>788bc5d05332f61066567ab0a0490ed3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_updated_by>ngo.admin</sys_updated_by>
+        <sys_updated_on>2026-01-30 05:08:20</sys_updated_on>
+        <ui_id>0a61f485-ab5e-4c27-801c-dd12a7e73260</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WVbW/TMBDHv0qV101lJ22S7h1imoQEQ9oGb9BkOfZ5M3IecJyxUe27c07SNl3LHoAh8dLnO/vuf/ezv6wCLYOjYC4zKZeKEkUpJZQsaEQzyCAXaZJClAXToOQFoKcFUVmJ6xtuWm9YrT7VkjuQjM5Eay2U7v4e96VuasPvPg9uaBHX2kjcD46+XE6Dmls80YENjlYPtp6bkuE5GHQ9W+f0MEd3V/u1rERbYF5Mr43vh8jjYWfy7hh3MMinQ6cB3DooJWAeipsGpkHBSyyysncbiwUuP5Zma7jWpesLLfhto3/gzXHk/RRgZWIQYbNkg0C9WR1zx8+dbYVr7UavSgtoek0kKN4a93Zs6x0+1k5XZR/ieG7W0ZVpi/K0VyTYHDDqR9tgElD7Qn3meDlWoc6vq+9n6yRPdNlJMpRoKsHNZsWdszpvnU9nFbT64pDavfmw3mCgcyx4XevyitW2utHdfZh9MbsyuJgpU33HNBt9Vc648KXOsBN8doL24878mVvt6/6Ax2Cwv/NTqb+18M7PkaQkjZdEhGm0iMM5ETzMM5mHPI/UYj5PsiSnwf00aO6at4Y3zVYxbBX71vqCe/0GpVgndqc06wbOBwura/cG07uBQZ/76cBWRh8b5Djazu3ozC1ft4xmKaWLhJVXFZMVI6xlCI8rwQ6mkntZmn3oBrcJuk3Gbi8j8RkFrEm86ObvcEEDjHu29+PYyWm/MaAYvRDFfoYPkJiR/4jEoaw/R3FH610Sd9T+JyCKPM9VDsuQ5kKE8xSyMIt4GsKCiFhFMSGp+g0Qn8Jv/vj0jr62snJaadFRMgKQwDInS0kWcRyphJIkWSQpzwkn8yWBWO5jt0ZtYuErCPwaX/75PZ30GrnT3awP1zKwtyVgF72zkX0gL36cvB603/kDsb1w47sHBdeG9ZP0Cxwf1PaX0fxVJju8cqW6FjKlwUgcOdbFvMqHqs6BW3F94m/yPezh3GV7p7FION6xx/a4na+H9sX+TDXg2CAL8wcwVdmC+4noKnz4IsyXFNI4ysJlEuGLAPEizGUchxRfCAAOKpKv8zVf/gSCcomg+AoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=788bc5d05332f61066567ab0a0490ed3"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=11e949dc53feb61066567ab0a0490e71"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=11e949dc53feb61066567ab0a0490e71^sys_idNOT IN247bc1d05332f61066567ab0a0490ecd,677a4d105332f61066567ab0a0490e31"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">92fb09145332f61066567ab0a0490e0a</block>
+        <comment/>
+        <connected_to>1ea1f31e-50e7-4ef0-92aa-0ed49afd16b1</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:01:55</sys_created_on>
+        <sys_id>247bc1d05332f61066567ab0a0490ecd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <ui_id>f92a6afd-670f-439f-88eb-4648ccdd73fe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">dafb09145332f61066567ab0a0490e05</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:57:45</sys_created_on>
+        <sys_id>677a4d105332f61066567ab0a0490e31</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <ui_id>1ea1f31e-50e7-4ef0-92aa-0ed49afd16b1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy2obMRT9FaP1MMwjNo13ISVQaBto0mzaIO5IGltUI031sOMa/3uv5uGY1iZuyTI7z7mvc67OxVtigm+Dd/fmyjm50GT+7TEhUkcMf2+J5GRO6gzq/JLlrCxmZZFlxbuLvJqVVV7wEgSUJCEaGoGZzGguvTSadkBCVqBCDMh6wo2GGJpIN4G2tWYlOGZw6VoFm4cXE9lSKm7FwLEFixO8sGS+/SPkN62gCiqhsN+dt1IvsPxcJWPh9Shl8rFDTmuM8xB34yRjeaSVZwkRT15ojvTnNSgnEtKA5uCN3ewRK4DfavUMLKX22I7E5Ccnf2HvYjqNibVAjUz0wf0nHTbYw2xpJBO3bSTYIx4qNdQwo0KjP/c64u5FDUH5cfeIBIf9RBtJRxYDpfpuadZfxoE3UncCh6AyDNT+CzyuoQpeuPgwQokGG9EG3xGXQ+Njyq4YuTTpQuFHWiuzxqHRfymwSDzFHUF6g/j7Dn4AK6OKT9gGi3uaFTjJaOdVbOctSth1a6E/QyTUCxyk0H4bmOCYla2/wjkrMbDeJYPRL2FaT/NsetweF7MjJjjw+Hb7tUXigtM8ZcHirnwaqPPgg9vtvocsK/lp4/9j9Wtcwxly/7qG4ys4cQLFCycQH+3MC8iy7O0EDk9AOtpbedDWDf/vC3iMNu4nuN43XDDpkMh9xD6M/wgxsEEDSHYIrY39ESU8Y7vf4BD8e1sGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=11e949dc53feb61066567ab0a0490e71"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=11e949dc53feb61066567ab0a0490e71"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_11e949dc53feb61066567ab0a0490e71</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:55:51</sys_created_on>
+        <sys_id>3f0acddc53feb61066567ab0a0490ead</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:55:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_11e949dc53feb61066567ab0a0490e71</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:55:51</sys_created_on>
+        <sys_id>630acddc53feb61066567ab0a0490ea2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:55:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_11e949dc53feb61066567ab0a0490e71</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:55:50</sys_created_on>
+        <sys_id>a70acddc53feb61066567ab0a0490e97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:55:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_11e949dc53feb61066567ab0a0490e71"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_11e949dc53feb61066567ab0a0490e71"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>notify_partner_ngo__donation_status_update</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛partner ngo donations Record","reference":"x_1871156_ngo_do_0_u_partner_ngo_donations","reference_display":"partner ngo donations","type":"reference","base_type":"reference","usedInstances":{"f3d202d5-f5b9-4647-8459-6a9caa3d17e2":["record"],"0a61f485-ab5e-4c27-801c-dd12a7e73260":["record"]},"attributes":{}},{"name":"Updated_1.current.u_status","label":"Trigger - Record Updated➛partner ngo donations Record➛status","reference":"","reference_display":"status","type":"choice","base_type":"choice","parent_table_name":"x_1871156_ngo_do_0_u_partner_ngo_donations","column_name":"u_status","choices":[{"used":false,"label":"Submitted","image":"","reference":false,"rawLabel":"Submitted","selected":false,"missing":false,"value":"submitted","parameters":{"name":"x_1871156_ngo_do_0_u_partner_ngo_donations","dependent_values":[""]}},{"used":false,"label":"Approved","image":"","reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"x_1871156_ngo_do_0_u_partner_ngo_donations","dependent_values":[""]}},{"used":false,"label":"Rejected","image":"","reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"x_1871156_ngo_do_0_u_partner_ngo_donations","dependent_values":[""]}}],"usedInstances":{"1ea1f31e-50e7-4ef0-92aa-0ed49afd16b1":["condition"]}}]</label_cache>
+        <master>true</master>
+        <name>Notify Partner NGO – Donation Status Update</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>12fb09145332f61066567ab0a0490e34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=12fb09145332f61066567ab0a0490e34"/>
+    <sys_variable_value action="delete_multiple" query="document_key=12fb09145332f61066567ab0a0490e34"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=12fb09145332f61066567ab0a0490e34"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=12fb09145332f61066567ab0a0490e34^sys_idNOT INdefb09145332f61066567ab0a0490e34"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>12fb09145332f61066567ab0a0490e34</id>
+        <name>Notify Partner NGO – Donation Status Update</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:13</sys_created_on>
+        <sys_id>defb09145332f61066567ab0a0490e34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=defb09145332f61066567ab0a0490e34"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=12fb09145332f61066567ab0a0490e34^sys_idNOT IN1efb09145332f61066567ab0a0490e60,52fb09145332f61066567ab0a0490e6c,dafb09145332f61066567ab0a0490e36"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Notify Partner NGO – Donation Status Update">12fb09145332f61066567ab0a0490e34</model>
+        <model_id>12fb09145332f61066567ab0a0490e34</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_12fb09145332f61066567ab0a0490e34</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:13</sys_created_on>
+        <sys_id>1efb09145332f61066567ab0a0490e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1efb09145332f61066567ab0a0490e60"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Notify Partner NGO – Donation Status Update">12fb09145332f61066567ab0a0490e34</model>
+        <model_id>12fb09145332f61066567ab0a0490e34</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_12fb09145332f61066567ab0a0490e34</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:13</sys_created_on>
+        <sys_id>52fb09145332f61066567ab0a0490e6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=52fb09145332f61066567ab0a0490e6c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Notify Partner NGO – Donation Status Update">12fb09145332f61066567ab0a0490e34</model>
+        <model_id>12fb09145332f61066567ab0a0490e34</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_12fb09145332f61066567ab0a0490e34</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:13</sys_created_on>
+        <sys_id>dafb09145332f61066567ab0a0490e36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dafb09145332f61066567ab0a0490e36"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=12fb09145332f61066567ab0a0490e34"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=12fb09145332f61066567ab0a0490e34"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=12fb09145332f61066567ab0a0490e34^sys_idNOT INa6fb09145332f61066567ab0a0490eb8"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Notify Partner NGO – Donation Status Update">12fb09145332f61066567ab0a0490e34</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:14</sys_created_on>
+        <sys_id>a6fb09145332f61066567ab0a0490eb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:14</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=12fb09145332f61066567ab0a0490e34^sys_idNOT IN26fb09145332f61066567ab0a0490ea9,52fb09145332f61066567ab0a0490ea8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Notify Partner NGO – Donation Status Update">12fb09145332f61066567ab0a0490e34</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:14</sys_created_on>
+        <sys_id>26fb09145332f61066567ab0a0490ea9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:14</sys_updated_on>
+        <ui_id>0a61f485-ab5e-4c27-801c-dd12a7e73260</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WVbW/TMBDHv0qV101lJ22S7h1imoQEQ9oGb9BkOfZ5M3IecJyxUe27c07SNl3LHoAh8dLnO/vuf/ezv6wCLYOjYC4zKZeKEkUpJZQsaEQzyCAXaZJClAXToOQFoKcFUVmJ6xtuWm9YrT7VkjuQjM5Eay2U7v4e96VuasPvPg9uaBHX2kjcD46+XE6Dmls80YENjlYPtp6bkuE5GHQ9W+f0MEd3V/u1rERbYF5Mr43vh8jjYWfy7hh3MMinQ6cB3DooJWAeipsGpkHBSyyysncbiwUuP5Zma7jWpesLLfhto3/gzXHk/RRgZWIQYbNkg0C9WR1zx8+dbYVr7UavSgtoek0kKN4a93Zs6x0+1k5XZR/ieG7W0ZVpi/K0VyTYHDDqR9tgElD7Qn3meDlWoc6vq+9n6yRPdNlJMpRoKsHNZsWdszpvnU9nFbT64pDavfmw3mCgcyx4XevyitW2utHdfZh9MbsyuJgpU33HNBt9Vc648KXOsBN8doL24878mVvt6/6Ax2Cwv/NTqb+18M7PkaQkjZdEhGm0iMM5ETzMM5mHPI/UYj5PsiSnwf00aO6at4Y3zVYxbBX71vqCe/0GpVgndqc06wbOBwura/cG07uBQZ/76cBWRh8b5Djazu3ozC1ft4xmKaWLhJVXFZMVI6xlCI8rwQ6mkntZmn3oBrcJuk3Gbi8j8RkFrEm86ObvcEEDjHu29+PYyWm/MaAYvRDFfoYPkJiR/4jEoaw/R3FH610Sd9T+JyCKPM9VDsuQ5kKE8xSyMIt4GsKCiFhFMSGp+g0Qn8Jv/vj0jr62snJaadFRMgKQwDInS0kWcRyphJIkWSQpzwkn8yWBWO5jt0ZtYuErCPwaX/75PZ30GrnT3awP1zKwtyVgF72zkX0gL36cvB603/kDsb1w47sHBdeG9ZP0Cxwf1PaX0fxVJju8cqW6FjKlwUgcOdbFvMqHqs6BW3F94m/yPezh3GV7p7FION6xx/a4na+H9sX+TDXg2CAL8wcwVdmC+4noKnz4IsyXFNI4ysJlEuGLAPEizGUchxRfCAAOKpKv8zVf/gSCcomg+AoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=26fb09145332f61066567ab0a0490ea9"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Notify Partner NGO – Donation Status Update">12fb09145332f61066567ab0a0490e34</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>1ea1f31e-50e7-4ef0-92aa-0ed49afd16b1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:14</sys_created_on>
+        <sys_id>52fb09145332f61066567ab0a0490ea8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:14</sys_updated_on>
+        <ui_id>f3d202d5-f5b9-4647-8459-6a9caa3d17e2</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WW227bOBCGX8XQtWWIknVw7ooGAQp0UyBJe1MUBEUOEwLUoRSVJmv43Xco0bYcO9mm2xTYO3M4JP/5OZ/or+tAieAsWIpCiJUkkSSERCRKSUwKKKDkeZZDXATzoGYVYKYB3hiB43umexdYrz+3glkQlCx4bwzUdrPBeaG6VrPHLz4NI/xOaYHzwdnXb/OgZQZ3tGCCs/WTqZ+VpFkJGlOvtpqearSPrRuLhvcV6qJqG/zoV577mdmHc5zBRU4OmQfwYKEWgDok0x3Mg4rVWGRjHncRA0x8qvU+cKdqOxZasYdO/Y0nJ7HLk4CVcW/Cbki9QWNYnjPLrq3pue3Nzq9GcehGTwRI1mv7fhobEz61VjX1uMSyUm9XN7qv6svRkWC3weQ++g5FQOsKdcrxcKxCXt81P662Ii9UPVjiS9QNZ3o3YtYaVfbWyVkHvbo55fYYPu03aBgSK9a2qr6lrWnu1XAeqq8WtxoHC6mbHyizU7f1gnFX6gJvgi0uMH4+hL8wo1zdf+E2uNid+blW33v44PpIkChPVhEP8zhNwmXEWVgWogxZGct0ucyKrCTBZh50j917zbpu7xheFf3eu4JH/7xTdDB7cJoODecWc6Na+w7l3cPOnzHovPENib9OJG42m7nHsCAv9XwS71t8cvwexQdKipyQNKP1bUNFQyPaU+TM1mB8qGbOwe6YT582w7TZNO110P5EAVtob4ZWPV2Q5/Yo9nG6dnY5Tnhq41dSO7b7CWiL6H8ErS/rv1N74PUhtAdu/xFmeVmWsoRVSErOw2UORVjELA8hjXgi4ySKcvkLzD5D6g6/5cvdO3kF68YqqfhAyQTATKDgdBWlSRLLjERZlmY5KyMWLVcRxPkxdlvUZugDOonCX/1O/rvoLXKXh6pP1+LZ2xNwiN7VJO7JS14mbwTtV55LvF64d7cHFVOajp30DI5PavvNaD6n5IBXJiVw90dIKtACW44Oa97k7ZXXwAy/u3AnuTsc4Txk++BikXA844jt6XW+Hdo3xz3VgaXeFuo2oLIxFXMdMVT49IuwXBHIk7gIV1mMXwRI0rAUSRISBA6AgYzFm7zim2//AEYTEMojCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=52fb09145332f61066567ab0a0490ea8"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=12fb09145332f61066567ab0a0490e34"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=12fb09145332f61066567ab0a0490e34^sys_idNOT IN52fb09145332f61066567ab0a0490ea4,d6fb09145332f61066567ab0a0490ea6"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">dafb09145332f61066567ab0a0490e05</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Notify Partner NGO – Donation Status Update">12fb09145332f61066567ab0a0490e34</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:13</sys_created_on>
+        <sys_id>52fb09145332f61066567ab0a0490ea4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <ui_id>1ea1f31e-50e7-4ef0-92aa-0ed49afd16b1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9FYNnQdASG41vgYMABdIGaNJc2kAYkZRNlCJVLnZcwf/eoRbHSB3ERnvszXyzvfc0A7dEe9d4Zx/0lbViqcj821NEhAoY/m6JYGROqgSq9JKmNM9meZYk2YeLtJzlZZqxHDjkJCIKao6ZVCsmnNCq6ICIrEH6EBDVhGkFITQRdgJNY/SaM8xgwjYSto/vJtKVkMzwgWMDBic4bsi8fRU6lbOEkktMXYykJ7cd8rYat20Cbp0Rajm8b4cu9yOoDQus0iQi/NlxxZD9vAJpeURqUAycNts9YjiwOyVfgJVQDtuRkPxsxS8cmE2nIbHiKJHyPrh/FoOBPVxdgwOk4qnzZkilKy0ot705jFfgpVscYn3CXROk9iUOSjlWa+lr9bl3hOwbjN8LEW+RBG+C0kB90FHdr/Tmy8jyRqjOlSEoNQW5f4FD70rvAp+WcMlrbFTU+O3R0SIsgOiKkUsdLyU+4krqDQ4NOxsDDcRjNBbiG8SvO/gRjAgqPmEbLO5plmAFLbr9xnZoEye7iNitXUiw9kUkulv89IFiL3kQV/T+hBJqROOucPKaDzp20XAulzCtpmkyPb56F7MjC3ZwKW37tUEpnBVpTL1B91zsC+vAebvbffdJkrO3z+fM6vNu6gRhf9zUcbHnHFL2ziGFr3jiHSVJ8v+Q/vqQhC369R+0dcP/4R09hWPoZ+69psIitYeAfRz/nUJgi8sl6CG00eZHEPWC7X4DcTYhNecGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">92fb09145332f61066567ab0a0490e0a</block>
+        <comment/>
+        <connected_to>1ea1f31e-50e7-4ef0-92aa-0ed49afd16b1</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Notify Partner NGO – Donation Status Update">12fb09145332f61066567ab0a0490e34</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:13</sys_created_on>
+        <sys_id>d6fb09145332f61066567ab0a0490ea6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <ui_id>f92a6afd-670f-439f-88eb-4648ccdd73fe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=12fb09145332f61066567ab0a0490e34"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=12fb09145332f61066567ab0a0490e34"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_12fb09145332f61066567ab0a0490e34</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:13</sys_created_on>
+        <sys_id>12fb09145332f61066567ab0a0490e44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_12fb09145332f61066567ab0a0490e34</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:13</sys_created_on>
+        <sys_id>d2fb09145332f61066567ab0a0490e68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_12fb09145332f61066567ab0a0490e34</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:13</sys_created_on>
+        <sys_id>d6fb09145332f61066567ab0a0490e98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_12fb09145332f61066567ab0a0490e34"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_12fb09145332f61066567ab0a0490e34"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>11e949dc53feb61066567ab0a0490e71</sys_id>
+        <latest_snapshot>12fb09145332f61066567ab0a0490e34</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch4-11-14-2025_12-03-2025_1405.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=11e949dc53feb61066567ab0a0490e71^sys_idNOT IN22fb09145332f61066567ab0a0490ed9"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"22fb09145332f61066567ab0a0490ed9","name":"plan","plan_signature":null}}</plan>
+        <plan_id>11e949dc53feb61066567ab0a0490e71</plan_id>
+        <snapshot>6f6bde3c533afa1066567ab0a0490e92</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 10:04:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>22fb09145332f61066567ab0a0490ed9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 10:04:14</sys_updated_on>
+        <trigger display_value="">66fb09145332f61066567ab0a0490ed7</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=11e949dc53feb61066567ab0a0490e71"/>
+</record_update>

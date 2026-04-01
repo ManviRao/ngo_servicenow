@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1871156_ngo_do_0_document_approval_sea">18ba05c0e4327610504b8f81bd6d2285</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Document Approval Search Profile">94ba05c03b327610c2a1bf1bfa210486</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 15:20:31</sys_created_on>
+        <sys_id>18ba05c0a5327610029cf32f62e26e84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1871156_ngo_do_0_document_approval_sea.Document Approval Search Profile</sys_name>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_18ba05c0a5327610029cf32f62e26e84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 15:20:31</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

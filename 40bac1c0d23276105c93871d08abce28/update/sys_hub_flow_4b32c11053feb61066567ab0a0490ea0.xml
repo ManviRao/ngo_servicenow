@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=1901000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>notify_volunteer__delivery_task_assigned</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛delivery task Record","reference":"x_1871156_ngo_do_0_delivery_task","reference_display":"delivery task","type":"reference","base_type":"reference","usedInstances":{"00765075-a6d2-4fa3-a6f9-c4bec31e41dc":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>cb79c99c53feb61066567ab0a0490e75</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Notify Volunteer – Delivery Task Assigned</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>5779c99c53feb61066567ab0a0490ef6</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:21:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b32c11053feb61066567ab0a0490ea0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Notify Volunteer – Delivery Task Assigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name>sys_hub_flow_4b32c11053feb61066567ab0a0490ea0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:28</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2026-01-28 01:53:23">63790d9c53feb61066567ab0a0490e67</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1871156_ngo_do_0_delivery_task">assigned_t0ISNOTEMPTY<item endquery="false" field="assigned_t0" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5779c99c53feb61066567ab0a0490ef6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:22</sys_updated_on>
+        <table>x_1871156_ngo_do_0_delivery_task</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>4b32c11053feb61066567ab0a0490ea0</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:22</sys_created_on>
+        <sys_id>9b79c99c53feb61066567ab0a0490ef7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:22</sys_updated_on>
+        <trigger display_value="">5779c99c53feb61066567ab0a0490ef6</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4b32c11053feb61066567ab0a0490ea0^sys_idNOT IN9b79c99c53feb61066567ab0a0490ef7"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4b32c11053feb61066567ab0a0490ea0^sys_idNOT IN8f32c11053feb61066567ab0a0490ea1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4b32c11053feb61066567ab0a0490ea0</id>
+        <name>Notify Volunteer – Delivery Task Assigned</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:21:40</sys_created_on>
+        <sys_id>8f32c11053feb61066567ab0a0490ea1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:21:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8f32c11053feb61066567ab0a0490ea1"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4b32c11053feb61066567ab0a0490ea0^sys_idNOT IN26828d1053feb61066567ab0a0490e47,6a828d1053feb61066567ab0a0490e3c,9e820d1053feb61066567ab0a0490eab"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Notify Volunteer – Delivery Task Assigned">4b32c11053feb61066567ab0a0490ea0</model>
+        <model_id>4b32c11053feb61066567ab0a0490ea0</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4b32c11053feb61066567ab0a0490ea0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:23:00</sys_created_on>
+        <sys_id>26828d1053feb61066567ab0a0490e47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:23:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=26828d1053feb61066567ab0a0490e47"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Notify Volunteer – Delivery Task Assigned">4b32c11053feb61066567ab0a0490ea0</model>
+        <model_id>4b32c11053feb61066567ab0a0490ea0</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4b32c11053feb61066567ab0a0490ea0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:23:00</sys_created_on>
+        <sys_id>6a828d1053feb61066567ab0a0490e3c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6a828d1053feb61066567ab0a0490e3c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Notify Volunteer – Delivery Task Assigned">4b32c11053feb61066567ab0a0490ea0</model>
+        <model_id>4b32c11053feb61066567ab0a0490ea0</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4b32c11053feb61066567ab0a0490ea0</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:22:59</sys_created_on>
+        <sys_id>9e820d1053feb61066567ab0a0490eab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9e820d1053feb61066567ab0a0490eab"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=4b32c11053feb61066567ab0a0490ea0^sys_idNOT INd2820d1053feb61066567ab0a0490ea3"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Notify Volunteer – Delivery Task Assigned">4b32c11053feb61066567ab0a0490ea0</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:22:59</sys_created_on>
+        <sys_id>d2820d1053feb61066567ab0a0490ea3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:21</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=4b32c11053feb61066567ab0a0490ea0^sys_idNOT INc888c51053feb61066567ab0a0490e59"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Notify Volunteer – Delivery Task Assigned">4b32c11053feb61066567ab0a0490ea0</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:49:02</sys_created_on>
+        <sys_id>c888c51053feb61066567ab0a0490e59</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:21</sys_updated_on>
+        <ui_id>00765075-a6d2-4fa3-a6f9-c4bec31e41dc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/8WW207jMBCGX6XKdVPFSXMod2grJCQWJBa4Qchy7DFY6xxwHKCLePcdp0kPQAEh2L2rx/Z4/n/81bl89JTw9rypyISYSRJIQkhAgpiEJIMMcp4mKYSZN/ZKVgCuNMArI3B8x3TrAo+PPwwwC2JUmdF5LdxPSia8NQZK+/SES4Vqas0WF/0OjPAbpQXOe3uXV2OvZgaTWzDe3uOzKbuogWqWg8aN84q3BSYdHc4xx0cLH3afDpU/V+LOwLHos1Plgjjl6iFjDx4slALwNMl0A2OvYCWqrMxiFUEDxEmp14EbVdql0oI9NOoP5o9Ct04CSuO9C6sh7R0azKkUh5PaqqpcRizL9eBcpduiPF5KcN6CZK22G962DeaD2tXsirCmxYLkr5vq/nQ470CVnbq+Wl1xplcjZq1ReWuhce1o1Rnac/RqB0BDZ1jB6lqV17Q21Z3qEmOZxeRa42AidXWP9TTqupww7jRN0D02OcD4vAtfMKOcwJ+YBjeP+zNftKRV56W6beHQNV6QII1mAffTMI78acCZn2ci91keyng6TbIkJ95T5zG9bZ28pVu9L7SztvOVdvcBlzbcqNruY4130LvxNO4Bychb9ywK19dqI+cakgdKspSQOKHldUVFRQO0ROM5ZkEta36/hGSYHvXTnyPmzBUzOl4W81EhW5t3COuZ2Yr1yIRfhkwW/B9k+oq+iJmtHnw7Mlsd2SKG53kuc5j5JOfcn6aQ+VnIUh/igEcyjIIgle8S8x4n07ev18ZDUlZWScVZ17I1KaEks0zEPI4k5AkJkiROUpYHLJjOAoiSl6TMB1LOkJTRfuP8AfFpZFYNXz0x70sa9h5va3pdaY+O2TinJyd6m5zlP/ln3ppm0cCd6yEUTGm6vFM7aHqmYTdZu5Ju4cakBO6+CKQCLfAO0W7PP3i4tlxHLjDbipOjV3r97WRuNrwBS3sDqEtAZWUK5trYaXmO7nRGII3CzJ8lIaILUeznIop8gigDMJCh+IrH7uov/UTgLg8KAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c888c51053feb61066567ab0a0490e59"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4b32c11053feb61066567ab0a0490ea0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:23:00</sys_created_on>
+        <sys_id>66828d1053feb61066567ab0a0490e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:23:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4b32c11053feb61066567ab0a0490ea0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:23:00</sys_created_on>
+        <sys_id>aa828d1053feb61066567ab0a0490e38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:23:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4b32c11053feb61066567ab0a0490ea0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:23:00</sys_created_on>
+        <sys_id>ee828d1053feb61066567ab0a0490e4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:23:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4b32c11053feb61066567ab0a0490ea0"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>notify_volunteer__delivery_task_assigned</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛delivery task Record","reference":"x_1871156_ngo_do_0_delivery_task","reference_display":"delivery task","type":"reference","base_type":"reference","usedInstances":{"00765075-a6d2-4fa3-a6f9-c4bec31e41dc":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Notify Volunteer – Delivery Task Assigned</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Notify Volunteer – Delivery Task Assigned">4b32c11053feb61066567ab0a0490ea0</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb79c99c53feb61066567ab0a0490e75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:21</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cb79c99c53feb61066567ab0a0490e75^sys_idNOT INc379c99c53feb61066567ab0a0490e77"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cb79c99c53feb61066567ab0a0490e75</id>
+        <name>Notify Volunteer – Delivery Task Assigned</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:21</sys_created_on>
+        <sys_id>c379c99c53feb61066567ab0a0490e77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c379c99c53feb61066567ab0a0490e77"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=cb79c99c53feb61066567ab0a0490e75^sys_idNOT IN1379c99c53feb61066567ab0a0490eaf,4b79c99c53feb61066567ab0a0490e79,9379c99c53feb61066567ab0a0490e97"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Notify Volunteer – Delivery Task Assigned">cb79c99c53feb61066567ab0a0490e75</model>
+        <model_id>cb79c99c53feb61066567ab0a0490e75</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cb79c99c53feb61066567ab0a0490e75</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:21</sys_created_on>
+        <sys_id>1379c99c53feb61066567ab0a0490eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1379c99c53feb61066567ab0a0490eaf"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Notify Volunteer – Delivery Task Assigned">cb79c99c53feb61066567ab0a0490e75</model>
+        <model_id>cb79c99c53feb61066567ab0a0490e75</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cb79c99c53feb61066567ab0a0490e75</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:21</sys_created_on>
+        <sys_id>4b79c99c53feb61066567ab0a0490e79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4b79c99c53feb61066567ab0a0490e79"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Notify Volunteer – Delivery Task Assigned">cb79c99c53feb61066567ab0a0490e75</model>
+        <model_id>cb79c99c53feb61066567ab0a0490e75</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cb79c99c53feb61066567ab0a0490e75</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:21</sys_created_on>
+        <sys_id>9379c99c53feb61066567ab0a0490e97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9379c99c53feb61066567ab0a0490e97"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=cb79c99c53feb61066567ab0a0490e75^sys_idNOT INd779c99c53feb61066567ab0a0490edd"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Notify Volunteer – Delivery Task Assigned">cb79c99c53feb61066567ab0a0490e75</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:22</sys_created_on>
+        <sys_id>d779c99c53feb61066567ab0a0490edd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:22</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=cb79c99c53feb61066567ab0a0490e75^sys_idNOT IN1f79c99c53feb61066567ab0a0490eda"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Notify Volunteer – Delivery Task Assigned">cb79c99c53feb61066567ab0a0490e75</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:22</sys_created_on>
+        <sys_id>1f79c99c53feb61066567ab0a0490eda</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:22</sys_updated_on>
+        <ui_id>00765075-a6d2-4fa3-a6f9-c4bec31e41dc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WWW0/bMBTHv0qV56aKk+ZS3iYqpEkbSMB4QZPl2MdgzbngOIyu4rvvOElvtGPAxqS91ce3//mf84t7vfSU8I68qciEmEkSSEJIQIKYhCSDDHKeJimEmTf2SlYArjTAKyNwfM906wLL5bEBZkGMKjP6Ugv3k5IJb42B0j4+4lKhmlqzxdWwAyP8VmmB897R9dexVzODh1sw3tHyydRL1WmWg8al5yt5T+XaRe3GouJtgbqoWgU/DTvnw8zo4xxncJOTQ8YePFgoBaAOyXQDY69gJSZZmcU6gvmLs1JvAreqtH2iBXto1A+8OQrdOgmYGR9MWA/pYFAflnNm2YU1LbetWftVKQ5N74kAyVptj7dj/YKz2qqq7LdYluvV7kq3RXnaO+KtD9iqR9ugCKhdok45Xo5ZyIvb6vv5SuSJKjtLhhR1xZlej5i1RuWtdXKWXqsuD7ndhw/7DRq6hQWra1Xe0NpU96q7D9UXkxuNg4nU1XeU2aibcsK4S3WClWCTE4zPu/AVM8rl/RmPwc3uzi+lumvho+sjQYI0mgXcT8M48qcBZ36eidxneSjj6TTJkpx4j2OvWTTHmjXNxjEsFb1rXcK9f4NTtDO7c5p2Dec2c6Nq+wHl3cPgz+N4wCwjzzVyFG76duvMDWoPlGQpIXFCy5uKiooG6IbGe8yCWtZ820dtNT0apl/H3Qvkrri77LrtsPwBvb3Yp+29o9N+YgAvfCV4fcce4C4L/iPuhrT+HLwdr3e523H7n2DH8zyXOcx8knPuT1PI/CxkqQ9xwCMZRkGQyjdg9zvYps9379abVlZWScVZV8QNbqEks0zEPI4k5AkJkiROUpYHLJjOAoiSfdzmK9wuEbfRh8Z5A+L1793vla+4O92VfjihAcANBrv8nW/FB/yi5/HraXvLs4c1hntXQiiY0rRvp18w+SS3v8znr5TsQMukBO7+0EgFWmDf0W7Pu7yh8gKY4bcn7iZXw57QXcB3CouY4x17gG+X8/34vtzvqQYsHWyh7gAqK1Mw1xFdhk8/C9MZgTQKM3+WhPhZgCj2cxFFPsHPBAADGYr3eY2//gTgPMmL9goAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1f79c99c53feb61066567ab0a0490eda"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cb79c99c53feb61066567ab0a0490e75</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:22</sys_created_on>
+        <sys_id>9379c99c53feb61066567ab0a0490eb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cb79c99c53feb61066567ab0a0490e75</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:21</sys_created_on>
+        <sys_id>9b79c99c53feb61066567ab0a0490e9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cb79c99c53feb61066567ab0a0490e75</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:21</sys_created_on>
+        <sys_id>d379c99c53feb61066567ab0a0490e93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_cb79c99c53feb61066567ab0a0490e75"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>4b32c11053feb61066567ab0a0490ea0</sys_id>
+        <latest_snapshot>cb79c99c53feb61066567ab0a0490e75</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=4b32c11053feb61066567ab0a0490ea0^sys_idNOT IN5f79c99c53feb61066567ab0a0490ef9"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>4b32c11053feb61066567ab0a0490ea0</plan_id>
+        <snapshot>cb79c99c53feb61066567ab0a0490e75</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 09:53:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5f79c99c53feb61066567ab0a0490ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 09:53:22</sys_updated_on>
+        <trigger display_value="">5779c99c53feb61066567ab0a0490ef6</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4b32c11053feb61066567ab0a0490ea0"/>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 15:20:31</sys_created_on>
+        <sys_id>04bac1c047327610df1b625b6e0af12a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9cbac1c0d2327610701dbd9da6d583c1.x_1871156_ngo_do_0.submitter</sys_name>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_security_acl display_value="9cbac1c0d2327610701dbd9da6d583c1">90bac1c0e832761000a4af4543d239c2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_04bac1c047327610df1b625b6e0af12a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 15:20:31</sys_updated_on>
+        <sys_user_role display_value="">18ba05c064327610eca6b54a6f4cc989</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</application>
+        <file_path/>
+        <instance_id>832b681cebf86214cbdefceacad0cd64</instance_id>
+        <instance_name>dev316896</instance_name>
+        <name>sys_security_acl_role_04bac1c047327610df1b625b6e0af12a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-27 15:20:31</sys_created_on><sys_id>04bac1c047327610df1b625b6e0af12a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>9cbac1c0d2327610701dbd9da6d583c1.x_1871156_ngo_do_0.submitter</sys_name><sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package><sys_policy/><sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope><sys_security_acl display_value="9cbac1c0d2327610701dbd9da6d583c1">90bac1c0e832761000a4af4543d239c2</sys_security_acl><sys_update_name>sys_security_acl_role_04bac1c047327610df1b625b6e0af12a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-27 15:20:31</sys_updated_on><sys_user_role display_value="">18ba05c064327610eca6b54a6f4cc989</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>797624308</payload_hash>
+        <record_name>9cbac1c0d2327610701dbd9da6d583c1.x_1871156_ngo_do_0.submitter</record_name>
+        <reverted_from/>
+        <source>53a85b015312321066567ab0a0490e3d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-06 07:43:00</sys_created_on>
+        <sys_id>f7763418537eb61066567ab0a0490ed0</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19b924257a00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>b7763418f67eb610dc45019b55a533d0</update_guid>
+        <update_guid_history>b7763418f67eb610dc45019b55a533d0:797624308</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="9cbac1c0d2327610701dbd9da6d583c1.x_1871156_ngo_do_0.submitter">37763418537eb61066567ab0a0490ed1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 08:30:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1abd4e3c66c1454a8308ce744d701ed9</sys_id>
+        <sys_metadata>04bac1c047327610df1b625b6e0af12a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9cbac1c0d2327610701dbd9da6d583c1.x_1871156_ngo_do_0.submitter</sys_name>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_parent display_value="9cbac1c0d2327610701dbd9da6d583c1">90bac1c0e832761000a4af4543d239c2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_scope_delete display_value="">2f4f21d40ec3470db54a73af4d29ff81</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_04bac1c047327610df1b625b6e0af12a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_04bac1c047327610df1b625b6e0af12a">f7763418537eb61066567ab0a0490ed0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 08:30:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

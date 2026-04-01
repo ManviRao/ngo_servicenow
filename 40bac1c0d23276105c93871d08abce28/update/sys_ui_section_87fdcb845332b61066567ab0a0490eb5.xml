@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="87fdcb845332b61066567ab0a0490eb5" sys_domain="global" table="x_1871156_ngo_do_0_u_partner_ngo_donations" version="3" view="workspace-ngo-donation-amp-distribution-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_id>0bfd0f845332b61066567ab0a0490e69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1871156_ngo_do_0_u_partner_ngo_donations" sys_domain="global" view="c0fd0784b432b6101535cbf225470b0e">87fdcb845332b61066567ab0a0490eb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_partner_ngo</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_id>0ffdcb845332b61066567ab0a0490eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1871156_ngo_do_0_u_partner_ngo_donations" sys_domain="global" view="c0fd0784b432b6101535cbf225470b0e">87fdcb845332b61066567ab0a0490eb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_item_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_id>8bfd0f845332b61066567ab0a0490e68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1871156_ngo_do_0_u_partner_ngo_donations" sys_domain="global" view="c0fd0784b432b6101535cbf225470b0e">87fdcb845332b61066567ab0a0490eb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_quantity</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_id>8ffdcb845332b61066567ab0a0490eb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1871156_ngo_do_0_u_partner_ngo_donations" sys_domain="global" view="c0fd0784b432b6101535cbf225470b0e">87fdcb845332b61066567ab0a0490eb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_donation_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_id>87fd0f845332b61066567ab0a0490e6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1871156_ngo_do_0_u_partner_ngo_donations" sys_domain="global" view="c0fd0784b432b6101535cbf225470b0e">87fdcb845332b61066567ab0a0490eb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_id>0ffd0f845332b61066567ab0a0490e67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1871156_ngo_do_0_u_partner_ngo_donations" sys_domain="global" view="c0fd0784b432b6101535cbf225470b0e">87fdcb845332b61066567ab0a0490eb5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87fdcb845332b61066567ab0a0490eb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1871156_ngo_do_0_u_partner_ngo_donations</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+            <sys_update_name>sys_ui_section_87fdcb845332b61066567ab0a0490eb5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace NGO Donation amp Distribution Management 0" name="workspace-ngo-donation-amp-distribution-management-0">c0fd0784b432b6101535cbf225470b0e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

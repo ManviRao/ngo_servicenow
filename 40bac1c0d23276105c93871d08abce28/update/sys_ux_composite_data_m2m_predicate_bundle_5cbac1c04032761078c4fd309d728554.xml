@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="doc-approval-get-all">54bac1c00032761043e84fb1966a2a57</dataset>
+        <order>1</order>
+        <predicate_bundle display_value="document-approval-view-config-bundle">5cbac1c000327610909b779b1df89953</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 15:20:14</sys_created_on>
+        <sys_id>5cbac1c04032761078c4fd309d728554</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_5cbac1c04032761078c4fd309d728554</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 15:20:14</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

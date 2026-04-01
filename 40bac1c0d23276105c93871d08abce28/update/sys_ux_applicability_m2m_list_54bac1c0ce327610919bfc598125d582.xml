@@ -2,7 +2,7 @@
     <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <applicability display_value="Document Approver">50bac1c0cc327610a439250ff3c18384</applicability>
-        <list display_value="Returned">54bac1c0f7327610ca36282793072581</list>
+        <list/>
         <order>0</order>
         <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>

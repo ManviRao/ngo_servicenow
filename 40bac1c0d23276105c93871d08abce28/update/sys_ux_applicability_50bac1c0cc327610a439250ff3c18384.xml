@@ -5,7 +5,7 @@
         <description>Role for document approver</description>
         <name>Document Approver</name>
         <role_names/>
-        <roles name="x_1871156_ngo_do_0.approver">50ba05c06332761031d14dca430b7a89</roles>
+        <roles>50ba05c06332761031d14dca430b7a89</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-27 15:20:32</sys_created_on>

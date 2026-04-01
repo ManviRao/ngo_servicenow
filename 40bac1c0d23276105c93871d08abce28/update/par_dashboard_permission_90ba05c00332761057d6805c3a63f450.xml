@@ -6,7 +6,7 @@
         <dashboard display_value="Document Approvals">9cba05c05a32761085491f60c0300552</dashboard>
         <group/>
         <owner>false</owner>
-        <role display_value="x_1871156_ngo_do_0.admin" name="x_1871156_ngo_do_0.admin">10ba05c08232761096e933d04052738a</role>
+        <role/>
         <sys_class_name>par_dashboard_permission</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-27 15:20:24</sys_created_on>

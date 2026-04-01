@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
     <sys_sg_form_segment action="INSERT_OR_UPDATE">
-        <embedded_screen display_value="Activity">94bac1c0f3327610f4ee0a7d20c03ebb</embedded_screen>
+        <embedded_screen/>
         <form display_value="Document Approval">90bac1c0ff3276104ddbc2f59c7821b2</form>
         <header_view_config/>
         <is_sticky>false</is_sticky>

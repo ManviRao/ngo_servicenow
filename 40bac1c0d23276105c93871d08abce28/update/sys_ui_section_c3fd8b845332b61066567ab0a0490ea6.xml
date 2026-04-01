@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="c3fd8b845332b61066567ab0a0490ea6" sys_domain="global" table="x_1871156_ngo_do_0_u_ngos" version="3" view="workspace-ngo-donation-amp-distribution-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_id>cbfd0f845332b61066567ab0a0490e1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1871156_ngo_do_0_u_ngos" sys_domain="global" view="c0fd0784b432b6101535cbf225470b0e">c3fd8b845332b61066567ab0a0490ea6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ngo_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_id>c7fd0f845332b61066567ab0a0490e20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1871156_ngo_do_0_u_ngos" sys_domain="global" view="c0fd0784b432b6101535cbf225470b0e">c3fd8b845332b61066567ab0a0490ea6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contact_email</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_id>4ffd0f845332b61066567ab0a0490e1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1871156_ngo_do_0_u_ngos" sys_domain="global" view="c0fd0784b432b6101535cbf225470b0e">c3fd8b845332b61066567ab0a0490ea6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-28 00:53:46</sys_created_on>
+            <sys_id>4bfd0f845332b61066567ab0a0490e1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1871156_ngo_do_0_u_ngos" sys_domain="global" view="c0fd0784b432b6101535cbf225470b0e">c3fd8b845332b61066567ab0a0490ea6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-28 00:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

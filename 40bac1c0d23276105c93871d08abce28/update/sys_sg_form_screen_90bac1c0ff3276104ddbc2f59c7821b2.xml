@@ -32,7 +32,7 @@
         <sys_updated_on>2026-01-27 15:20:27</sys_updated_on>
         <table>x_1871156_ngo_do_0_document_approver</table>
         <use_view_config>true</use_view_config>
-        <view_config display_value="Document Approvals View Config">90bac1c09c32761023d51f8ceb6a86b3</view_config>
+        <view_config/>
     </sys_sg_form_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=90bac1c0ff3276104ddbc2f59c7821b2"/>
 </record_update>

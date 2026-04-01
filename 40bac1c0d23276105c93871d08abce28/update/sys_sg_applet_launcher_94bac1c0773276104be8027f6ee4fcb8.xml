@@ -7,7 +7,7 @@
         <header_titles/>
         <hide_empty_sections>true</hide_empty_sections>
         <name>NGO Donation &amp; Distribution Management</name>
-        <required_roles>x_1871156_ngo_do_0.approver</required_roles>
+        <required_roles/>
         <search_config/>
         <sys_class_name>sys_sg_applet_launcher</sys_class_name>
         <sys_created_by>admin</sys_created_by>

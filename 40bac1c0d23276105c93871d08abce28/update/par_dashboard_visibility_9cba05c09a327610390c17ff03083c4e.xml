@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="Document Approvals">9cba05c05a32761085491f60c0300552</dashboard>
-        <experience display_value="NGO Donation &amp; Distribution Management Workspace">14ba05c047327610361a83f21b30ca88</experience>
+        <experience/>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-27 15:20:14</sys_created_on>

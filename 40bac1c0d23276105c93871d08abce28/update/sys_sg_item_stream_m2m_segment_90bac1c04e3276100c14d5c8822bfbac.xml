@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
     <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
-        <item_stream display_value="New Document Aprpovals Item Stream">94bac1c040327610ae35d4a1f09fe0b0</item_stream>
+        <item_stream/>
         <segment display_value="Item Stream Segment">94bac1c0f8327610ddd76c95ec63c8ac</segment>
         <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>

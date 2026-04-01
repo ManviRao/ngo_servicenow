@@ -2,7 +2,7 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="delivery task">c087daf0533afa1066567ab0a0490e13</macroponent>
+        <macroponent display_value="delivery task Record Page">c087daf0533afa1066567ab0a0490e13</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>
         <preset/>
         <required_translations>[]</required_translations>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>clothes_sub_category</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-05 07:16:59</sys_created_on>
+        <sys_id>e262b17a53fab21066567ab0a0490e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>clothes_sub_category</sys_name>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e262b17a53fab21066567ab0a0490e5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-05 07:16:59</sys_updated_on>
+        <table>x_1871156_ngo_do_0_u_partner_ngo_donations</table>
+        <ui_policy display_value="Cloth sub category is visible only when the item_type=clothes ">a262717a53fab21066567ab0a0490ee2</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=e262b17a53fab21066567ab0a0490e5a"/>
+</record_update>

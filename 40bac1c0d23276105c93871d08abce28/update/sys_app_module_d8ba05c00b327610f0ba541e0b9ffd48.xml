@@ -18,7 +18,7 @@
         <query>/x/1871156/x_1871156_ngo_do_0-doc-approval/workspace</query>
         <report/>
         <require_confirmation>false</require_confirmation>
-        <roles>x_1871156_ngo_do_0.approver,x_1871156_ngo_do_0.admin</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-27 15:20:12</sys_created_on>

@@ -6,8 +6,7 @@
         <auto_redirection>false</auto_redirection>
         <button_table_field_name/>
         <cancel_label/>
-        <condition table="x_1871156_ngo_do_0_document_approver">state=submitted^EQ<item display_value="Submitted" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="submitted"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_1871156_ngo_do_0_document_approver">state=submitted^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <condition_script/>
         <condition_type>declarative</condition_type>
@@ -73,7 +72,7 @@
         <type>write_back</type>
         <unhighlighted_icons/>
         <use_overlay>true</use_overlay>
-        <write_back_action_item display_value="wb_return_document">98bac1c03a327610deac6637ed2058b7</write_back_action_item>
+        <write_back_action_item display_value="">98bac1c03a327610deac6637ed2058b7</write_back_action_item>
         <zombified_screens/>
     </sys_sg_button>
     <sys_translated_text action="delete_multiple" query="documentkey=90bac1c013327610f27b92e20e3751bd"/>

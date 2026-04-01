@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="DELETE">
+        <active>true</active>
+        <description>Configuration for list menu UIB experience for manager / approver.</description>
+        <name>NGO Donation &amp; Distribution Management - Workspace</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 15:20:34</sys_created_on>
+        <sys_id>44bac1c00b3276107533ef72e331b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NGO Donation &amp; Distribution Management - Workspace</sys_name>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_44bac1c00b3276107533ef72e331b649</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 15:20:34</sys_updated_on>
+    </sys_ux_list_menu_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</application>
+        <file_path/>
+        <instance_id>832b681cebf86214cbdefceacad0cd64</instance_id>
+        <instance_name>dev316896</instance_name>
+        <name>sys_ux_list_menu_config_44bac1c00b3276107533ef72e331b649</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config"><sys_ux_list_menu_config action="INSERT_OR_UPDATE"><active>true</active><description>Configuration for list menu UIB experience for manager / approver.</description><name>NGO Donation &amp; Distribution Management - Workspace</name><sys_class_name>sys_ux_list_menu_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-27 15:20:34</sys_created_on><sys_id>44bac1c00b3276107533ef72e331b649</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NGO Donation &amp; Distribution Management - Workspace</sys_name><sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package><sys_policy/><sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope><sys_update_name>sys_ux_list_menu_config_44bac1c00b3276107533ef72e331b649</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-27 15:20:34</sys_updated_on></sys_ux_list_menu_config></record_update>]]></payload>
+        <payload_hash>2059413952</payload_hash>
+        <record_name>NGO Donation &amp; Distribution Management - Workspace</record_name>
+        <reverted_from/>
+        <source>53a85b015312321066567ab0a0490e3d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-06 07:43:00</sys_created_on>
+        <sys_id>068ec7085332b61066567ab0a0490ed3</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19b924257a00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX List Menu Configuration</type>
+        <update_guid>c28ec7082f32b61081a1fd582080bad3</update_guid>
+        <update_guid_history>c28ec7082f32b61081a1fd582080bad3:2059413952</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 00:56:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_menu_config">sys_ux_list_menu_config</sys_db_object>
+        <sys_id>40fc4641e21f4cc6979e8b3bdcaa2e41</sys_id>
+        <sys_metadata>44bac1c00b3276107533ef72e331b649</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NGO Donation &amp; Distribution Management - Workspace</sys_name>
+        <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+        <sys_scope_delete display_value="">2f4f21d40ec3470db54a73af4d29ff81</sys_scope_delete>
+        <sys_update_name>sys_ux_list_menu_config_44bac1c00b3276107533ef72e331b649</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_menu_config_44bac1c00b3276107533ef72e331b649">068ec7085332b61066567ab0a0490ed3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 00:56:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

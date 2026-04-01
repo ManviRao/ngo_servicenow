@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
     <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
-        <item_stream display_value="New Document Aprpovals Item Stream">94bac1c040327610ae35d4a1f09fe0b0</item_stream>
-        <master_item display_value="New Document Aprpovals Main Item">90bac1c09f327610d1f7c90b82a924ad</master_item>
+        <item_stream/>
+        <master_item/>
         <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-27 15:20:12</sys_created_on>

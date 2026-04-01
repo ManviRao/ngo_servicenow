@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
     <ais_search_source action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1871156_ngo_do_0_document_approval">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-        </condition>
+        <condition table="x_1871156_ngo_do_0_document_approval">active=true</condition>
         <datasource display_value="">x_1871156_ngo_do_0_document_approval</datasource>
         <has_dynamic_filters>false</has_dynamic_filters>
         <name>Document Approval</name>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ed20cf4853be761066567ab0a0490e71" label="inventory" max_length="40" name="x_1871156_ngo_do_0_inventory" text_index="true" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Available Quantiy" max_length="40" name="available_quantiy" type="integer"/>
+        <element label="Last Updated" max_length="255" name="last_updated" type="glide_date_time"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element display="true" label="Item Name" max_length="40" name="item_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Item ID" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -5,7 +5,7 @@
         <description>Role for document approval admins</description>
         <name>Document Admin</name>
         <role_names/>
-        <roles name="x_1871156_ngo_do_0.admin">10ba05c08232761096e933d04052738a</roles>
+        <roles>10ba05c08232761096e933d04052738a</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-27 15:20:19</sys_created_on>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5a936a4b5332761066567ab0a0490ed9" label="Beneficiary " max_length="40" name="x_1871156_ngo_do_0_beneficiary" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="benef_id" max_length="40" name="number" type="string"/>
+        <element label="address" max_length="40" name="address" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element choice="3" label="category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Family" sequence="1" value="family"/>
+                <element inactive_on_update="false" label="Individual" sequence="0" value="individual"/>
+                <element inactive_on_update="false" label="Communiy" sequence="2" value="communiy"/>
+            </choice>
+        </element>
+        <element label="contact" max_length="40" name="contact" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

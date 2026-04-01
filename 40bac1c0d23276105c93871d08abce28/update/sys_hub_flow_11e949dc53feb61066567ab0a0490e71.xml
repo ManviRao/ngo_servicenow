@@ -48,7 +48,7 @@
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record display_value="Created 2026-01-28 02:03:44">13dbc1145332f61066567ab0a0490efa</version_record>
+        <version_record display_value="Created 2026-01-28 02:04:15">f6fb49145332f61066567ab0a0490e1b</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=11e949dc53feb61066567ab0a0490e71"/>
     <sys_variable_value action="delete_multiple" query="document_key=11e949dc53feb61066567ab0a0490e71"/>
@@ -391,7 +391,7 @@
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</flow>
         <generation_source/>
@@ -401,13 +401,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-28 09:59:49</sys_created_on>
         <sys_id>31fa89d853beb61066567ab0a0490eda</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <sys_updated_by>ngo.admin</sys_updated_by>
+        <sys_updated_on>2026-01-30 05:08:20</sys_updated_on>
         <ui_id>f3d202d5-f5b9-4647-8459-6a9caa3d17e2</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/8WW207jMBCGX6XKdVPFSXModyshJCQWJBa4QSvLscfFknMgcQrdqu++49QtbWkBIdi9qyfj8T//+JN7v/CU8E68sciEmEgSSEJIQIKYhCSDDHKeJimEmTf0SlYAZjbAq0bgesZ0ZwOLxW0tmAFByYh3TQOlWS7xu1Btrdn8zqVhhD8oLfC7d3L/e+jVrMGKBhrvZLH3ycxroJrloHHjacW7AosOzk+xxkfVrndfr+Xuy7dn4Fq46lTZIH6yesjQg2cDpQA8TTLdwtArWIldVs18E2mAiatSvwQeVGlWnRbsuVV/sH4U2jwJ2Bp3LmyW1Dm0NqdSHK5qo6pyFTEs12vnKt0V5eWqBestSNZps+Vt12I9qK1mK8I0HQqSvx6qp+v1eWeq7LtzanXFmd6smDGNyjsDrR1Hp27QnouDEwANvWEFq2tVTmndVDPVF0aZxWiqcTGSunpCPa2aliPGbU8jdI+NzjB+2ofvWKNsgz+xDG4eujNfjaRTt6V67ODcDl6QII0mAffTMI78ccCZn2ci91keyng8TrIkJ96y95g+dra9lVvOF9pb2/tK+/uAqS1vVG1+oMYZbNxYBa0T7r7grwOJy+Vy6ADKyFtXMgpfbuDW8S8QPVOSpYTECS2nFRUVDWhHkRBTQuNCJbM2tq/JcmkDTBtsp30Otxsrb3C5kvfR1nY2H2nVAbcTc7yFX8ZbFvwf3pyiLwJuZwbfztvORHZw43meyxwmPsk598cpZH4WstSHOOCRDKMgSOW7uB2BbEPO+O3rtfX0lJVRUvH+gm+xkwiUF0+COIpCmZAgSeIkZXnAgvEkgDB9TcyakgF6gW6i8M/Sspn15ml6v5v13svddg436ahpts5x0ERvQ7N6AT7zRrXzFmZ2fFAwpenqOh0Baa+H41AdK7pDGpMSuP0nIRVogdeH9nv+wYO34zoigdU2iFwcmPW3Q7k98BYMdQZQW4DKqimYHWPfyz614wmBNAozf5KESC1EsZ+LKPIJYgLAQIbiCx7J5e+/R2DzjjwKAAA=</values>
+        <values>H4sIAAAAAAAA/9WW227bOBCGX8XQtWWIknVw7ooGAQp0UyBJe1MUBEUOEwLUoRSVJmv43Xco0bYcO9mm2xTYO3M4JP/5OZ/or+tAieAsWIpCiJUkkSSERCRKSUwKKKDkeZZDXATzoGYVYKYB3hiB43umexdYrz+3glkQlCx4bwzUdrPBeaG6VrPHLz4NI/xOaYHzwdnXb/OgZQZ3tGCCs/WTqZ+VpFkJGlOvtpqearSPrRuLhvcV6qJqG/zoV577mdmHc5zBRU4OmQfwYKEWgDok0x3Mg4rVWGRjHncRA0x8qvU+cKdqOxZasYdO/Y0nJ7HLk4CVcW/Cbki9QWNYnjPLrq3pue3Nzq9GcehGTwRI1mv7fhobEz61VjX1uMSyUm9XN7qv6svRkWC3weQ++g5FQOsKdcrxcKxCXt81P662Ii9UPVjiS9QNZ3o3YtYaVfbWyVkHvbo55fYYPu03aBgSK9a2qr6lrWnu1XAeqq8WtxoHC6mbHyizU7f1gnFX6gJvgi0uMH4+hL8wo1zdf+E2uNid+blW33v44PpIkChPVhEP8zhNwmXEWVgWogxZGct0ucyKrCTBZh50j917zbpu7xheFf3eu4JH/7xTdDB7cJoODecWc6Na+w7l3cPOnzHovPENib9OJG42m7nHsCAv9XwS71t8cvwexQdKipyQNKP1bUNFQyPaU+TM1mB8qGbOwe6YT582w7TZNO110P5EAVtob4ZWPV2Q5/Yo9nG6dnY5Tnhq41dSO7b7CWiL6H8ErS/rv1N74PUhtAdu/xFmeVmWsoRVSErOw2UORVjELA8hjXgi4ySKcvkLzD5D6g6/5cvdO3kF68YqqfhAyQTATKDgdBWlSRLLjERZlmY5KyMWLVcRxPkxdlvUZugDOonCX/1O/rvoLXKXh6pP1+LZ2xNwiN7VJO7JS14mbwTtV55LvF64d7cHFVOajp30DI5PavvNaD6n5IBXJiVw90dIKtACW44Oa97k7ZXXwAy/u3AnuTsc4Txk++BikXA844jt6XW+Hdo3xz3VgaXeFuo2oLIxFXMdMVT49IuwXBHIk7gIV1mMXwRI0rAUSRISBA6AgYzFm7zim2//AEYTEMojCwAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=31fa89d853beb61066567ab0a0490eda"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -415,7 +415,7 @@
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Notify Partner NGO – Donation Status Update">11e949dc53feb61066567ab0a0490e71</flow>
         <generation_source/>
@@ -425,13 +425,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-28 10:02:12</sys_created_on>
         <sys_id>788bc5d05332f61066567ab0a0490ed3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-28 10:04:13</sys_updated_on>
+        <sys_updated_by>ngo.admin</sys_updated_by>
+        <sys_updated_on>2026-01-30 05:08:20</sys_updated_on>
         <ui_id>0a61f485-ab5e-4c27-801c-dd12a7e73260</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/8WV207jMBCGX6XKdVPZSZuk3K2EkJBYkFjgBiHLscfglXPAcTgs4t13nLqlLUch2L30xB7P/8988flDpGW0E01lIeVcUaIopYSSGU1oAQWUIs9ySIpoHNW8AtxpQTRW4vqGm94HHh5OW8kdSEYnorcWavf4iN+l7lrD78/CNoyIK20kfo92zi/GUcstZnRgo52HrU/uvgVmeAkGD+42oq8w6Wh/F3N8tNrl6eNludvl+ztwLUN2pn0QP/l66DiCOwe1BLxNcdPBOKp4jSobe7+KWODyqDZPgStdu4XSit91+g/mTxO/TwFKE8GF1ZIFh5bmNFrAUet0Uy8ijpdm6Vxj+qo+XEjw3oLivXFr3vYd5oPW1+yLcLbHgtSvq+b2eHnfnq4HdaFa0whuVivunNVl76Dz7ej1Cdpz8GIHwMBgWMXbVteXrLXNjR4SY5nV5NLgYqJMc4v1dPqynnDhNU3QPT7Zw/juED7jVnuBPzENHh6HO5+1pNentb7uYd83XlKSp3Mi4jyZpfGUCB6XhSxjXiZqNp1mRVbS6HHwmF33Xt7CreALG6wdfGXDPODWTljduh9Y4w0ENx7HgYqCvjVnafI0Vms5n8i4Y7TIKZ1lrL5smGwYYT3DsXc12BCqufeme45L2DbCbaP1bZ9j6MSXNzpclPdRaRuHX5EaKNqIBYiSL4OoIP8HolDRF1G00YNvh2ijIxsMibIsVQnzmJZCxNMcirhIeB7DjIhUJSkhuXqXoffImb49XmvvSd04rbQYBnyNHQLzkswlmaVpojJKsmyW5bwknEznBFL5nJglJSMLv0Hge/RpWla9Xr0376tZnj3clPOyyECNXbsnQJO+Dc3it/6Zh6e77+DGtw8qrg1bjNMrIG1peB2q15JukMaVGtrBlAYjcXzYcOYfvGIbriMSmG2FyMELvf52KNcb3oFjwQDmEzDV2Ir7Ng5atqmdzinkaVLE8yxBaiGdxaVM05gixQAcVCK/4uW7+AsdwboCEQoAAA==</values>
+        <values>H4sIAAAAAAAA/9WVbW/TMBDHv0qV101lJ22S7h1imoQEQ9oGb9BkOfZ5M3IecJyxUe27c07SNl3LHoAh8dLnO/vuf/ezv6wCLYOjYC4zKZeKEkUpJZQsaEQzyCAXaZJClAXToOQFoKcFUVmJ6xtuWm9YrT7VkjuQjM5Eay2U7v4e96VuasPvPg9uaBHX2kjcD46+XE6Dmls80YENjlYPtp6bkuE5GHQ9W+f0MEd3V/u1rERbYF5Mr43vh8jjYWfy7hh3MMinQ6cB3DooJWAeipsGpkHBSyyysncbiwUuP5Zma7jWpesLLfhto3/gzXHk/RRgZWIQYbNkg0C9WR1zx8+dbYVr7UavSgtoek0kKN4a93Zs6x0+1k5XZR/ieG7W0ZVpi/K0VyTYHDDqR9tgElD7Qn3meDlWoc6vq+9n6yRPdNlJMpRoKsHNZsWdszpvnU9nFbT64pDavfmw3mCgcyx4XevyitW2utHdfZh9MbsyuJgpU33HNBt9Vc648KXOsBN8doL24878mVvt6/6Ax2Cwv/NTqb+18M7PkaQkjZdEhGm0iMM5ETzMM5mHPI/UYj5PsiSnwf00aO6at4Y3zVYxbBX71vqCe/0GpVgndqc06wbOBwura/cG07uBQZ/76cBWRh8b5Djazu3ozC1ft4xmKaWLhJVXFZMVI6xlCI8rwQ6mkntZmn3oBrcJuk3Gbi8j8RkFrEm86ObvcEEDjHu29+PYyWm/MaAYvRDFfoYPkJiR/4jEoaw/R3FH610Sd9T+JyCKPM9VDsuQ5kKE8xSyMIt4GsKCiFhFMSGp+g0Qn8Jv/vj0jr62snJaadFRMgKQwDInS0kWcRyphJIkWSQpzwkn8yWBWO5jt0ZtYuErCPwaX/75PZ30GrnT3awP1zKwtyVgF72zkX0gL36cvB603/kDsb1w47sHBdeG9ZP0Cxwf1PaX0fxVJju8cqW6FjKlwUgcOdbFvMqHqs6BW3F94m/yPezh3GV7p7FION6xx/a4na+H9sX+TDXg2CAL8wcwVdmC+4noKnz4IsyXFNI4ysJlEuGLAPEizGUchxRfCAAOKpKv8zVf/gSCcomg+AoAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=788bc5d05332f61066567ab0a0490ed3"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=11e949dc53feb61066567ab0a0490e71"/>
@@ -1080,15 +1080,15 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>11e949dc53feb61066567ab0a0490e71</sys_id>
         <latest_snapshot>12fb09145332f61066567ab0a0490e34</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-zurich-07-01-2025__patch4-11-14-2025_12-03-2025_1405.zip</compiler_build>
         <version_record/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=11e949dc53feb61066567ab0a0490e71^sys_idNOT IN22fb09145332f61066567ab0a0490ed9"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"22fb09145332f61066567ab0a0490ed9","name":"plan","plan_signature":null}}</plan>
         <plan_id>11e949dc53feb61066567ab0a0490e71</plan_id>
-        <snapshot>12fb09145332f61066567ab0a0490e34</snapshot>
+        <snapshot>6f6bde3c533afa1066567ab0a0490e92</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-28 10:04:14</sys_created_on>
         <sys_domain>global</sys_domain>

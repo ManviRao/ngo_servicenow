@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2efdcd4c5332761066567ab0a0490ef6" label="partner ngo donations" max_length="40" name="x_1871156_ngo_do_0_u_partner_ngo_donations" text_index="true" type="collection">
+        <element choice="1" label="Size" max_length="40" name="size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="XXXL" sequence="50" value="xxxl"/>
+                <element inactive_on_update="false" label="XXS" sequence="2" value="xxs"/>
+                <element inactive_on_update="false" label="XXL" sequence="40" value="xxl"/>
+                <element inactive_on_update="false" label="S" sequence="10" value="s"/>
+                <element inactive_on_update="false" label="XL" sequence="30" value="xl"/>
+                <element inactive_on_update="false" label="XS" sequence="5" value="xs"/>
+                <element inactive_on_update="false" label="L" sequence="20" value="l"/>
+            </choice>
+        </element>
+        <element choice="3" label="item_type" max_length="40" name="u_item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medicines" sequence="1" value="medicines"/>
+                <element inactive_on_update="false" label="Clothes" sequence="0" value="clothes"/>
+                <element inactive_on_update="false" label="Shoes" sequence="2" value="shoes"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="ngo" max_length="32" name="u_partner_ngo" reference="x_1871156_ngo_do_0_u_ngos" type="reference"/>
+        <element choice="3" label="status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="submitted"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="description" max_length="40" name="u_description" type="string"/>
+        <element choice="1" label="Clothes_Sub_category" max_length="40" name="clothes_sub_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="children" sequence="2" value="children"/>
+            </choice>
+        </element>
+        <element label="quantity" max_length="40" name="u_quantity" type="integer"/>
+        <element label="donation_date" max_length="255" name="u_donation_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_partner_ngo"/>
+        </index>
+    </element>
+</database>

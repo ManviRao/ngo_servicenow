@@ -48,7 +48,7 @@
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record display_value="Created 2026-01-28 17:24:46">f2ae5c2453ba3a1066567ab0a0490ed2</version_record>
+        <version_record display_value="Created 2026-01-28 17:26:39">e21f1c6453ba3a1066567ab0a0490e78</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=0de8745c537eb61066567ab0a0490eeb"/>
     <sys_variable_value action="delete_multiple" query="document_key=0de8745c537eb61066567ab0a0490eeb"/>
@@ -307,7 +307,7 @@
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Notify Admin – Donation Submitted">0de8745c537eb61066567ab0a0490eeb</flow>
         <generation_source/>
@@ -317,13 +317,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-28 08:42:59</sys_created_on>
         <sys_id>2069f49c537eb61066567ab0a0490e92</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-29 01:26:37</sys_updated_on>
+        <sys_updated_by>ngo_partner</sys_updated_by>
+        <sys_updated_on>2026-01-30 02:19:10</sys_updated_on>
         <ui_id>87cd59bc-726e-4765-b9c3-9a6de08a7797</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/8WWXU/bMBSG/0qV66aKkzRJuZuGkJA2kBjjBiHLH8fFkuOExCl0iP++4zQtLeVLjG2XPjk+Pu97/NS9vA+0DA6CVBZSzhSJFCEkItGUxKSAArjIsxziIhgHlpWAmQ2IqpG4XjDT+cD9/dcGmANJyUR0TQPWPTzgd6nb2rDlxZCGEXGtjcTvwcHl1TioWYMVHTTBwf2TT25ZAzWMg8GNh5XoSiw6Oj7EGu/tdr37bN3u0/b9GbiWQ3WqfRA/+X7IOIA7B1YCnqaYaWEclMxK5qpmuYmganlqzWPgWlu3Ulqyu1b/wvpJ7PMUoDQxuLBZ0sGhtTmVFnBaO13ZVcQxbtbOVaYr7clKgvcWFOuM2/K2a7Ee1L5n34RrOmxI/biubs/W5x1p26sbujWVYGazYs41mncOWj+OTp8/Z88q/O3ZwYCBPrFkda3tnNZNtdD9edh9OZkbXEyUqW6xzVbP7YQJL3WCprLJEcYP+/AFa7TX/R3L4GZ/5k+rbzo49oOXJMqTWSTCPJ4mYRoJFvJC8pDxWE3TNCsyToKH3mN603l5K7cGX2hvbe8r7e8Dprai0bX7gs0sYHDjYTxQUZDX7lkSP16rrZqPZNxRUuSETDNq5xWVFY1oR/HaOwvNELLMm9Du4zKkjTBttJ32MYbOfXujk1V775W2s/kFqQNFO7EBovjTICqi/wPR0NGfU7Rjzy5EO5P5JwwJzrniMAsJFyJMcyjCImZ5CNNIJCpOoihXbzL0Fjnp69dr6z2xldNKi/6Cb7Ej0iwShIhpwoFnJMqyaZYzHrEonUWQFvvE3F6DHW1jI/pnqd3g82F6NrPfvD9vq1vvPdmV97zogaJm65wBouR1iFY/8x95iNplCws/TiiZNnR1kV4A64mGlyF7qegOeUwpEP7vgtJgJF4n2u/5B6/ajutIJVbb43F71n8Px/P9gbfg6GAA9QWoqpqS+TH2Wp5SnM4I5ElchLMsRoohmYZcJklIkGoABiqWn/ESXv0G1vWZuiEKAAA=</values>
+        <values>H4sIAAAAAAAA/9WW227bOBCGX8XQtWWIkizJuSsSBCjQTYEk25uiIHgYxgQoSqWoHNbIuy8p0bYcu2nT3SywlxwOyfl/zifq6yaSPDqLcl5xvhIoEQihBCVLlKIKKqCsLEpIq2geaVKDyzTAGsPd+J6o3gc2m3MDxALHaMF6Y0Db52c3z2XXKvL0JaS5CFtLxd18dPb12zxqiXE7WjDR2ebF1K+WpAgF5VKvtzW9rNE+tX7MG9bXri4st8FPYeVFmJl9vHAzbpEvB80jeLSgObg6BFEdzKOaaE5sY552ESeaf9ZqH1hLbUehNXns5F/u5Cz1eQKcMhZM2A1xMGgMiwtiyY01PbO92fnVSAbd6AkHQXplz6exMeFza2WjxyWWULVd3ai+1lejI9Fug8l99J0rAlov1FfuDncqxM26ebjeFnkp9WBJkKgaRtRuRKw1kvbWl7OJenl7yu0xfNpvUDAk1qRtpb7DrWnu5XCeq75e3Ck3WAjVPLgyO3mnF4R5qQt3E2Rx6eIXQ/gLMdLr/sNt4xb7M//U8nsPH30fcZSU2SphcZkuszhPGIlpxWlMaCqWeV5UBUXR8zzqnrpzRbpu75i7Kvy994JH/4JTeDB7cBoPDecXMyNb+8GVdw/Bn+d5YKtCrzVylu77drLnnq9HjKoSoWWB9V2DeYMT3GMHj9VgQkgTb0t3DF1Im7m02TTtbST+goAtibdD/50WFGA8in2arp1djRMBxfSNKI49fILEKvkfkRhk/XMUD7w+JPHA7f8EREYpFRRWMaKMxXkJVVylpIxhmbBMpFmSlOI3QPwZfvnr3Tt52nRjpZBsoGQCIMuLhCHElhkFWqCkKJZFSWhCknyVQF4dY/ewBj2bsseGF7LbMfj2x/DnIrYIXh2qOK0tsLgn4hDF60k8kJi9TuII3u+8ie664d7fJtREKjx21g/wfKHtX0b1R5Uc8EuEAOb/doQExV0L4mHNuzyw4gaIYetLf5K/wxHWQ9YPLtYR7844Yn16ne+H+u1xT3VgcbAF+w2waExNfEcMCl9+IfIVgjJLq3hVpO4LAdkypjzLYuS+GAAERMrf56n+9jf1wp2zCAsAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2069f49c537eb61066567ab0a0490e92"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=0de8745c537eb61066567ab0a0490eeb"/>
@@ -710,15 +710,15 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>0de8745c537eb61066567ab0a0490eeb</sys_id>
         <latest_snapshot>e7d181dc53beb61066567ab0a0490e54</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-zurich-07-01-2025__patch4-11-14-2025_12-03-2025_1405.zip</compiler_build>
         <version_record/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0de8745c537eb61066567ab0a0490eeb^sys_idNOT IN6bd181dc53beb61066567ab0a0490ea6"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"6bd181dc53beb61066567ab0a0490ea6","name":"plan","plan_signature":null}}</plan>
         <plan_id>0de8745c537eb61066567ab0a0490eeb</plan_id>
-        <snapshot>e7d181dc53beb61066567ab0a0490e54</snapshot>
+        <snapshot>61b479bc53f2fa1066567ab0a0490efe</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-28 09:20:04</sys_created_on>
         <sys_domain>global</sys_domain>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
     <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
-        <item_stream display_value="Approvals this month Item Stream">94bac1c0bd3276105c07144aeef34eaf</item_stream>
+        <item_stream/>
         <segment display_value="Item Stream Segment">9cbac1c04d32761043a61d08a0c19cab</segment>
         <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>

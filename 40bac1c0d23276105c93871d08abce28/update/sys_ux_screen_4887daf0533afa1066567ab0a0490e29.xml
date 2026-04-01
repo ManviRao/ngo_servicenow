@@ -6,7 +6,7 @@
         <disable_auto_reflow>false</disable_auto_reflow>
         <disable_interoperable>false</disable_interoperable>
         <event_mappings/>
-        <macroponent display_value="delivery task">c087daf0533afa1066567ab0a0490e13</macroponent>
+        <macroponent display_value="delivery task Record Page">c087daf0533afa1066567ab0a0490e13</macroponent>
         <macroponent_config/>
         <name>delivery task Record Page</name>
         <order>100</order>

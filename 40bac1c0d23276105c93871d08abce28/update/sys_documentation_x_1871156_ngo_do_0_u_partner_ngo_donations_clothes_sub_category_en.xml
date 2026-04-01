@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="clothes_sub_category" label="Clothes_Sub_category" language="en" table="x_1871156_ngo_do_0_u_partner_ngo_donations">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>clothes_sub_category</element>
+            <help/>
+            <hint/>
+            <label>Clothes_Sub_category</label>
+            <language>en</language>
+            <name>x_1871156_ngo_do_0_u_partner_ngo_donations</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-05 07:13:03</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Clothes_Sub_category</sys_name>
+            <sys_package display_value="NGO Donation &amp; Distribution Management" source="x_1871156_ngo_do_0">40bac1c0d23276105c93871d08abce28</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NGO Donation &amp; Distribution Management">40bac1c0d23276105c93871d08abce28</sys_scope>
+            <sys_update_name>sys_documentation_x_1871156_ngo_do_0_u_partner_ngo_donations_clothes_sub_category_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-05 07:13:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

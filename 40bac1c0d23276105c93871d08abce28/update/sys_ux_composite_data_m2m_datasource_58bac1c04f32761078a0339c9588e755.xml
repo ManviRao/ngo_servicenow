@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
     <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
         <dataset display_value="doc-approval-get-returned">58bac1c019327610750339f188437b57</dataset>
-        <datasource display_value="doc-approval-get-returned">58bac1c0333276109ec7dcfd3c451256</datasource>
+        <datasource/>
         <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-27 15:20:25</sys_created_on>

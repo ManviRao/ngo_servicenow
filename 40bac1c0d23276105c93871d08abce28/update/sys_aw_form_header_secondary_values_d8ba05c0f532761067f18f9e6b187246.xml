@@ -3,7 +3,7 @@
         <active>true</active>
         <conditions/>
         <field>sys_created_on</field>
-        <form_header display_value="x_1871156_ngo_do_0_document_approver">d8ba05c060327610dae51eed6751f647</form_header>
+        <form_header/>
         <order>100</order>
         <roles/>
         <sys_class_name>sys_aw_form_header_secondary_values</sys_class_name>

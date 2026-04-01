@@ -6,7 +6,7 @@
         <dashboard display_value="NGO Donation &amp; Distribution Management">5bfd0f845332b61066567ab0a0490e67</dashboard>
         <group/>
         <owner>false</owner>
-        <role display_value="x_1871156_ngo_do_0.approver" name="x_1871156_ngo_do_0.approver">50ba05c06332761031d14dca430b7a89</role>
+        <role/>
         <sys_class_name>par_dashboard_permission</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-28 00:53:48</sys_created_on>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
     <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
-        <item_stream display_value="Needs Attention Item Stream">90bac1c0e0327610cbce9a5fc2de4cb0</item_stream>
+        <item_stream/>
         <segment display_value="Item Stream Segment">90bac1c054327610574797620db2a6ae</segment>
         <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
